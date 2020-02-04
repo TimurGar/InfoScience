@@ -31,8 +31,9 @@ Compositive thinking.
 
 N/A
 
+Today's code:
 
-  def setup():
+def setup():
     size(1000,1000)
     background(255)
     textAlign(CENTER)
