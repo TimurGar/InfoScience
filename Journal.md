@@ -5,10 +5,10 @@ Class no.1
 1. What did we do?
 
 Made an algoritm how to make a bread with jelly.
-1. What did you learn?
+2. What did you learn?
 
 Compositive thinking.
-1. Question that I have
+3. Question that I have
 
 N/A
 
@@ -21,11 +21,16 @@ Class no.2
 Installed Python
 Learned and practice many commands.
 
-1. What did you learn?
+2. What did you learn?
 
-New commands such as: fill, def setup, def draw, def mouseclicked...
-Knew how to use random command, change color.
-Knew how to write text in the console and on the window.
+How to write text on the window. 
+How to work with text. Diferent to parameters(change size, textAlign).
+
+Compositive thinking.
+3. Question that I have
+
+N/A
+
 
   def setup():
     size(1000,1000)
@@ -48,9 +53,3 @@ def mouseClicked():
      fill(0)
      textSize(s/4)
     text("T&G",mouseX,mouseY)
-
-
-Compositive thinking.
-1. Question that I have
-
-N/A
