@@ -33,7 +33,7 @@ N/A
 
 Today's code:
 
-
+```.py
     def setup():
 
         size(1000,1000)
@@ -59,3 +59,4 @@ Today's code:
          fill(0)
          textSize(s/4)
          text("T&G",mouseX,mouseY)
+```
