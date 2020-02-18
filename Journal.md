@@ -60,3 +60,17 @@ Today's code:
          textSize(s/4)
          text("T&G",mouseX,mouseY)
 ```
+
+Class no.1
+
+1. What did we do?
+
+A model of traffic light
+
+2. What did you learn?
+
+We should use a delay() command because it breakes whole program
+
+3. Question that I have
+
+N/A
