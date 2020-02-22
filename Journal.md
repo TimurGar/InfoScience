@@ -69,12 +69,14 @@ A model of traffic light
 
 2. What did you learn?
 
-We should use a delay() command because it breakes whole program
+We shouldn't use a delay() command because it breakes whole program.
+Istead you millis().
 
 3. Question that I have
 
 N/A
 
+Today's code:
 ```.py
     timer = 0
 def setup():
