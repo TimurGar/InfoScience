@@ -61,7 +61,7 @@ Today's code:
          text("T&G",mouseX,mouseY)
 ```
 
-Class no.1
+Class no.3
 
 1. What did we do?
 
@@ -122,4 +122,53 @@ def clear():
     circle(300,300,100)
     fill(0,100,0)
     circle(300,420,100)
+```
+Class no.4
+
+1. What did we do?
+
+Install Tinkercad, make a circuit of the traffic light, made a code for it.
+
+2. What did you learn?
+
+How to use Tinkercad to create a circuits.
+
+3. Question that I have
+
+N/A
+
+Today's code:
+```.py
+
+int But =0;
+
+
+void setup()
+{
+
+  pinMode(13, OUTPUT);
+  pinMode(12, OUTPUT);
+  pinMode(11, OUTPUT);
+  pinMode(2, INPUT);
+}
+
+void loop()
+{
+ 
+ 
+  digitalWrite(13, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(13, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(12, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(12, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+  
+  digitalWrite(11, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(11, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
 ```
