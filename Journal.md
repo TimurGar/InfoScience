@@ -190,6 +190,14 @@ What strategy is the most efficient to contain the spread of a virus in a genera
 
 The most efficient strategy in this situation is to declare a quarantine so that people are not able to go out of their homes, make a maximum distance for going out(may be up to 500 meters). Close the stores, except grocery stores and pharmacies.
 
+In your opinion, should people enable access to the resources of their personal computers as tools for research? Are there any risks?
+
+Of cource there is a risk, that people would be able to accept your personal data. But the advantages of using this type of method to find a way: 
+    1. It can increase the speed of researching ways how to solve COVID-19.
+    2. This program is optional, so if you afraid of it it is fine.
+I think in this situation the risk is justified because everyone can probably safe a lot of lives without actually communicating with the affected.
+    
+
 
 3. Question that I have
 
