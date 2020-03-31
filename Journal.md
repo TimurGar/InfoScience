@@ -172,3 +172,25 @@ void loop()
   delay(1000); // Wait for 1000 millisecond(s)
 }
 ```
+Online class no.1 
+April 1 2020
+
+1. What did we do?
+
+I read an article "How your personal computer can help science battle the coronavirus while you sleep"　by John D'Anna for Arizona Republic Magazine.
+
+Answered the questions.
+
+2. What did you learn?
+
+I learned that we can use our computers to find a ways to fight against COVID-19. You can dowload a program and while your are not your computer it can help scientists to find a ways to fight against COVID-19.
+
+Questions:
+What strategy is the most efficient to contain the spread of a virus in a general population?
+
+I think
+
+
+3. Question that I have
+
+N/A
