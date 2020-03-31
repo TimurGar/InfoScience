@@ -188,7 +188,7 @@ I learned that we can use our computers to find a ways to fight against COVID-19
 Questions:
 What strategy is the most efficient to contain the spread of a virus in a general population?
 
-I think
+The most efficient strategy in this situation is to declare a quarantine so that people are not able to go out of their homes, make a maximum distance for going out(may be up to 500 meters). Close the stores, except grocery stores and pharmacies.
 
 
 3. Question that I have
