@@ -173,7 +173,7 @@ void loop()
 }
 ```
 Online class no.1 
-April 1 2020
+March 31 2020
 
 1. What did we do?
 
@@ -197,8 +197,76 @@ Of cource there is a risk, that people would be able to accept your personal dat
     2. This program is optional, so if you afraid of it it is fine.
 I think in this situation the risk is justified because everyone can probably safe a lot of lives without actually communicating with the affected.
     
-
-
 3. Question that I have
 
 N/A
+
+
+
+Online class no.1 
+April 1 2020
+
+1. What did we do?
+
+I watched [e-learning] Video #1 and made a code in the end.
+
+2. What did you learn?
+
+That we can use abstraction in computer science to represent very complex things in a simple way. For example we know that every people are unique, they have different colors of eyes, height, weight, age, etc. But in our situation we know that this information is not important for us so can represent a human just as a circle. 
+
+Code for the [e-learning] Video #1:
+
+```.py
+posX = 300
+posY = 300
+
+def setup():
+    size(500,500)
+    
+def draw():
+    global posX,posY
+    background(255)
+    strokeWeight(2)
+    
+    circle(posX, posY, 40) 
+    posX = posX + random(-10,10)
+    posY = posY + random(-10,10)
+    
+    if posX > 500:
+        posX = 500
+    if posX < 0:
+        posX = 0
+    if posY > 500:
+        posY = 500
+    if posY < 0:
+        posY = 0
+    
+    delay(100)
+```
+3. Question that I have
+
+Who can I test if my code is correct?
+
+To check it, first, I commented out this two lines and a "delay(100)" command so that the circle(human) will not move randomly:
+#posX = posX + random(-10,10)
+#posY = posY + random(-10,10)
+
+Then, instead of them I wrote this line:
+posX = posX + 5
+In this situation the circle(human) moved straight to the borther(right one) so that I would be able to check if it would stop when it will reach it.
+
+Then, I deleted the previous line and I wrote this line:
+posX = posX - 5
+In this situation the circle(human) moved straight to the borther(left one) so that I would be able to check if it would stop when it will reach it.
+
+Then, I deleted the previous line and I wrote this line:
+posY = posY + 5
+In this situation the circle(human) moved straight to the borther(Down one) so that I would be able to check if it would stop when it will reach it.
+
+Then, I deleted the previous line and I wrote this line:
+posY = posY - 5
+In this situation the circle(human) moved straight to the borther(Up one) so that I would be able to check if it would stop when it will reach it.
+
+After the test was done SUCCESSFULLY, I delete the previous line and agin paste this two lines and a "delay(100)" command: #posX = posX + random(-10,10)
+#posY = posY + random(-10,10)
+
