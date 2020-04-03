@@ -258,7 +258,50 @@ In this situation the circle(human) moved straight to the borther(Up one) so tha
 After the test was done SUCCESSFULLY, I delete the previous line and agin paste this two lines and a "delay(100)" command: #posX = posX + random(-10,10)
 #posY = posY + random(-10,10)
 
+My second program
 
+```.py
+    Xlst = list()
+    Ylst = list()
+    Color = list()
+
+    NumOfHumans = 40
+
+
+    def setup():
+        global Xlst,Ylst, NumOfHumans
+        size(500,500)
+
+        for i in range(NumOfHumans):
+            ValX = int(random(50,450))
+            Xlst.append(ValX)
+            ValY = int(random(50,450))
+            Ylst.append(ValY)
+
+        print(Xlst)
+        print(Ylst)  
+
+    def draw():
+        global Xlst,Ylst, NumOfHumans
+        background(255)
+        strokeWeight(2)
+
+        for i in range(NumOfHumans):
+            circle(Xlst[i], Ylst[i], 40) 
+            Xlst[i] = Xlst[i] + random(-10,10)
+            Ylst[i] = Ylst[i] + random(-10,10)
+
+            if Xlst[i] > 500:
+                Xlst[i] = 500
+            if Xlst[i] < 0:
+                Xlst[i] = 0
+            if Ylst[i] > 500:
+                Ylst[i] = 500
+            if Ylst[i] < 0:
+                Ylst[i] = 0
+
+        delay(100)
+```
 
 Answering the questions:
 What strategy is the most efficient to contain the spread of a virus in a general population?
