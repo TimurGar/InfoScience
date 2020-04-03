@@ -185,18 +185,6 @@ Answered the questions.
 
 I learned that we can use our computers to find a ways to fight against COVID-19. You can dowload a program and while your are not your computer it can help scientists to find a ways to fight against COVID-19.
 
-Questions:
-What strategy is the most efficient to contain the spread of a virus in a general population?
-
-The most efficient strategy in this situation is to declare a quarantine so that people are not able to go out of their homes, make a maximum distance for going out(may be up to 500 meters). Close the stores, except grocery stores and pharmacies.
-
-In your opinion, should people enable access to the resources of their personal computers as tools for research? Are there any risks?
-
-Of cource there is a risk, that people would be able to accept your personal data. But the advantages of using this type of method to find a way: 
-    1. It can increase the speed of researching ways how to solve COVID-19.
-    2. This program is optional, so if you afraid of it it is fine.
-I think in this situation the risk is justified because everyone can probably safe a lot of lives without actually communicating with the affected.
-    
 3. Question that I have
 
 N/A
@@ -270,3 +258,29 @@ In this situation the circle(human) moved straight to the borther(Up one) so tha
 After the test was done SUCCESSFULLY, I delete the previous line and agin paste this two lines and a "delay(100)" command: #posX = posX + random(-10,10)
 #posY = posY + random(-10,10)
 
+
+
+Answering the questions:
+What strategy is the most efficient to contain the spread of a virus in a general population?
+
+The most efficient strategy in this situation is to declare a quarantine so that people are not able to go out of their homes, make a maximum distance for going out(may be up to 500 meters). Close the stores, except grocery stores and pharmacies.
+
+
+In your opinion, should people enable access to the resources of their personal computers as tools for research? Are there any risks?
+
+Of cource there is a risk, that people would be able to accept your personal data. But the advantages of using this type of method to find a way: 
+    1. It can increase the speed of researching ways how to solve COVID-19.
+    2. This program is optional, so if you afraid of it it is fine.
+I think in this situation the risk is justified because everyone can probably safe a lot of lives without actually communicating with the affected.
+
+What should be some behaviours (at least 3) that we will need to include in our simulation to be a realistic approximation of the current situation in the world? Explain.
+
+    1. They should a wat from each other(a least 20px - may represent 2 meters) 
+        Because now, people are trying to not come close to each other because they afraid to get a COVID-19.
+    2. Stay in a groups of three people maximum.
+        To again decrease the chance of getting COVID-19.
+    3. Wear a masks to most of the people.
+        To not spread the virus
+    4. If a person doesn't have a mask, people will stay even futher(may be 75 px - 7.5 meters)
+        Because almost everyone don't want to talk to a person who doesn't wear a mask.
+    5. Add houses so that people will stay in it.
