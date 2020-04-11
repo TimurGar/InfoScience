@@ -327,3 +327,6 @@ What should be some behaviours (at least 3) that we will need to include in our 
     4. If a person doesn't have a mask, people will stay even futher(may be 75 px - 7.5 meters)
         Because almost everyone don't want to talk to a person who doesn't wear a mask.
     5. Add houses so that people will stay in it.
+    
+
+
