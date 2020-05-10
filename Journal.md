@@ -328,5 +328,19 @@ What should be some behaviours (at least 3) that we will need to include in our 
         Because almost everyone don't want to talk to a person who doesn't wear a mask.
     5. Add houses so that people will stay in it.
     
+1. What did we do?
 
+1)I watched videos about Enigma - a cipher machine that was using during WW2 and Caesar cipher
+2)I decode the text that was writen in Caesar cipher
+3)I modeled and 3D printed my cipher machine
+
+2. What did you learn?
+What is Enigma and why it was very hard to hack
+What was the weakness of the Enigma
+What is Caesar Cipher
+How to decode a Caesar Cipher
+
+3. Question that I have
+What would happen if Enigma could change to original letter(e.g. A) to itself(A) in other words don't change it at all? 
+How would this affect the outcome of the war? 
 
